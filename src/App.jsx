@@ -75,7 +75,7 @@ const App = () => {
       <div className={s.header}>
         <div className="row">
           <div className="col-4">
-            <Logo img={logoImage} title="NightShow" subtitle="Find the show" />
+            <Logo img={logoImage} title="WatchIT" subtitle="Find the show" />
           </div>
           <div className="col-md-12 col-lg-4">
             <SearchBar onSubmit={fetchByTitle} />
