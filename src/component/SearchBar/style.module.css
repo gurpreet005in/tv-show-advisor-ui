@@ -1,0 +1,21 @@
+.icon{
+ position: absolute;
+ margin-left: 5px;
+ margin-top: 4px;
+}
+.input{
+    border-radius: 30px;
+    background-color:aquamarine;
+    height: 30px;
+    color:blue;
+    font-weight: 500;
+    font-size: 20px;
+    width: 100%;
+    border-color: transparent;
+    padding: auto;
+}
+input:focus{
+    outline-width: 1;
+    border:solid 1px white;
+} 
+
