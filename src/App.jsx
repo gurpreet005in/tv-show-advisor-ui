@@ -8,6 +8,8 @@ import logoImage from "./asserts/images/logo.png";
 import TVShowList from "./component/TVShowList/TVShowList";
 import SearchBar from "./component/SearchBar/SearchBar";
 
+//console.log("Environment variable", process.env.REACT_APP_API_KEY_PARAM);
+
 const App = () => {
   const [currentTvShow, setCurrentTvShow] = useState(0);
   const [recommendationList, setRecommendationList] = useState([]);
@@ -19,8 +21,8 @@ const App = () => {
         setCurrentTvShow(popularTvShowList[0]);
       }
     } catch (error) {
-      //console.log("Something wrong while pulling records");
-      alert("Bravo !");
+      console.log("Something wrong while pulling records");
+      // alert("Bravo !");
     }
   }
 
